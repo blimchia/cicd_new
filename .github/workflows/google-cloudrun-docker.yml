@@ -94,7 +94,7 @@ jobs:
 
       - name: Build image
         run: docker build . --file Dockerfile --tag ${{ env.GAR_LOCATION }}/${{env.SERVICE}}
-        working-directory: ../
+        working-directory: .
 
       - name: Push image
         run: docker push ${{ env.GAR_LOCATION }}/${{env.SERVICE}}

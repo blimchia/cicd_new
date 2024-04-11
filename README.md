@@ -6,8 +6,6 @@ The script is indeed quite basic, focusing primarily on essential functionality.
 
 You can utilize Google Cloud Pub/Sub for real-time message processing. 
 
-## Repository Contents
-
 # Build and Deploy to Cloud Run
 
 This GitHub Actions workflow automates the process of building and deploying a simple publish-subscribe Python Flask application to Google Cloud Run. The application utilizes Google Cloud Run, Google Cloud Artifact Registry, and Docker for containerization.
